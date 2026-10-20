@@ -1,13 +1,21 @@
-algoritmo "acumulador"
+algoritmo "escopoParametro"
 
 var
-  acumulador: real
+  numero: inteiro
+
+procedimento mostrarValor()
+  var
+    valor: inteiro
+
+  inicio
+    valor <- 2
+    escreval("Número: ", numero)//10
+    escreval("Número: ", valor)//2
+fimprocedimento
 
 inicio
-  acumulador <- 1
-
-  para acumulador de 1 ate 2 faca 
-    escreva ("Acumulador: ", acumulador)
-  fimpara
+  numero <- 10
+  mostrarValor()
+  escreval("Valor: ", valor)// Erro: Variavel não declarada: valor
 
 fimalgoritmo
