@@ -1,0 +1,16 @@
+algoritmo "funcoesCaractere"
+
+var
+  texto: caractere
+
+inicio
+  texto <- "Thais"
+
+  escreval("Texto original: ", texto)
+  escreval("Copia de parte do texto: ", copia(texto, 1, 3))
+  escreval("Quantidade de caracteres: ", compr(texto))
+  escreval("Texto em maiusculas: ", maiusc(texto))
+  escreval("Texto em minusculas: ", minusc(texto))
+  escreval("Posição de 'ri': ", pos("ri", texto))
+
+fimalgoritmo
