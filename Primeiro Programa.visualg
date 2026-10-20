@@ -1,0 +1,15 @@
+algoritmo "RepitaSimples"
+
+var
+  i: inteiro
+
+inicio
+  i <- 1
+  repita
+    escreval("Número: , i")
+    i <- i + 1
+    // O Repita PARA quando a condição se torna VERDADEIRA//
+
+  ate (i > 3)
+
+fimalgoritmo
